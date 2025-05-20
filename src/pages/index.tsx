@@ -134,7 +134,7 @@ const IndexPage: React.FC<PageProps> = () => {
                     {/* Action Links */}
                     <p className="flex flex-wrap justify-center">
                         <ActionLink url={"https://drive.google.com/file/d/19KCKW1aTvFG_L4B3cQWT8rhfd7RQPnOf/view?usp=sharing"} icon={<FaFilePdf/>}>Paper</ActionLink>
-                        <ActionLink url={"https://drive.google.com/file/d/1E5WNxJdPhWusXf6cIiZzZv9DMmkBe9AL/view?usp=drive_link"} icon={<FaVideo/>}>Video</ActionLink>
+                        <ActionLink url={"https://www.youtube.com/watch?v=wO6ZrYnDJkU"} icon={<FaVideo/>}>Video</ActionLink>
                         <ActionLink url={"https://github.com/tomsilver/multitask-personalization"} icon={<AiFillGithub/>}>Code</ActionLink>
                     </p>
                 </Article>
