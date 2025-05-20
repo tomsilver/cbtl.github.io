@@ -177,59 +177,53 @@ const IndexPage: React.FC<PageProps> = () => {
                     </div>
 
                     <h2 className="font-semibold border-b-[1px] !mt-8 !mb-2">Simulation Environments</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 !mt-1 !mb-2">
-                        <div>
-                            <h3 className="text-lg font-medium text-center !mb-2">Cooking</h3>
-                            <div className="bg-gray-50 rounded-lg shadow-sm">
-                                <div className="h-full aspect-w-16 aspect-h-9">
-                                    <video 
-                                        autoPlay 
-                                        muted 
-                                        playsInline 
-                                        loop 
-                                        className="w-full h-full object-cover rounded-lg"
-                                        preload="auto"
-                                    >
-                                        <source src="/videos/cooking.mov" type="video/quicktime"/>
-                                        Your browser does not support the video tag.
-                                    </video>
-                                </div>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 !mt-2 !mb-6">
+                        <div className="text-center">
+                            <h3 className="text-lg font-medium !mb-2">Cooking</h3>
+                            <div className="aspect-w-16 aspect-h-9">
+                            <video 
+                                autoPlay 
+                                muted 
+                                playsInline 
+                                loop 
+                                className="w-full rounded-lg bg-gray-50"
+                                preload="auto"
+                            >
+                                <source src="/videos/cooking.mov" type="video/quicktime"/>
+                                Your browser does not support the video tag.
+                            </video>
                             </div>
                         </div>
-                        <div>
-                            <h3 className="text-lg font-medium text-center !mb-2">Cleaning</h3>
-                            <div className="bg-gray-50 rounded-lg shadow-sm">
-                                <div className="h-full aspect-w-16 aspect-h-9">
-                                    <video 
-                                        autoPlay 
-                                        muted 
-                                        playsInline 
-                                        loop 
-                                        className="w-full h-full object-cover rounded-lg"
-                                        preload="auto"
-                                    >
-                                        <source src="/videos/cleaning.mp4" type="video/mp4"/>
-                                        Your browser does not support the video tag.
-                                    </video>
-                                </div>
+                        <div className="text-center">
+                            <h3 className="text-lg font-medium !mb-2">Cleaning</h3>
+                            <div className="aspect-w-16 aspect-h-9">
+                            <video 
+                                autoPlay 
+                                muted 
+                                playsInline 
+                                loop 
+                                className="w-full rounded-lg bg-gray-50"
+                                preload="auto"
+                            >
+                                <source src="/videos/cleaning.mp4" type="video/mp4"/>
+                                Your browser does not support the video tag.
+                            </video>
                             </div>
                         </div>
-                        <div>
-                            <h3 className="text-lg font-medium text-center !mb-2">Books</h3>
-                            <div className="bg-gray-50 rounded-lg shadow-sm">
-                                <div className="h-full aspect-w-16 aspect-h-9">
-                                    <video 
-                                        autoPlay 
-                                        muted 
-                                        playsInline 
-                                        loop 
-                                        className="w-full h-full object-cover rounded-lg"
-                                        preload="auto"
-                                    >
-                                        <source src="/videos/books.mp4" type="video/mp4"/>
-                                        Your browser does not support the video tag.
-                                    </video>
-                                </div>
+                        <div className="text-center">
+                            <h3 className="text-lg font-medium !mb-2">Books</h3>
+                            <div className="aspect-w-16 aspect-h-9">
+                            <video 
+                                autoPlay 
+                                muted 
+                                playsInline 
+                                loop 
+                                className="w-full rounded-lg bg-gray-50"
+                                preload="auto"
+                            >
+                                <source src="/videos/books.mp4" type="video/mp4"/>
+                                Your browser does not support the video tag.
+                            </video>
                             </div>
                         </div>
                     </div>
