@@ -5,6 +5,15 @@ import {FaArrowUp, FaFilePdf, FaVideo} from "react-icons/fa";
 import {AiFillGithub} from "react-icons/ai";
 import {LuTextSelect} from "react-icons/lu";
 
+// Add type declaration for image imports
+declare module "*.png" {
+    const content: string;
+    export default content;
+}
+
+import overviewImage from "../images/ctbl_overview.png"
+import simResultsImage from "../images/sim-results.png"
+
 const Title: React.FC = ({children}) => {
     // Paper title
     return (
@@ -140,6 +149,17 @@ const IndexPage: React.FC<PageProps> = () => {
                 </Article>
 
                 <Article>
+                    {/* Overview Image */}
+                    <h2 className="font-semibold border-b-[1px] !mb-4">Overview</h2>
+                    <div className="!mb-4">
+                        <img src={overviewImage} alt="CBTL Overview" className="w-full rounded-lg"/>
+                    </div>
+                    <div className="flex justify-center">
+                        <p className="text-center text-xl !mt-2 !mb-4 font-medium max-w-[100%] md:max-w-[75%]">
+                            We propose a method for continual, flexible, active, and safe robot personalization.
+                        </p>
+                    </div>
+
                     {/* YouTube Video */}
                     <h2 className="font-semibold border-b-[1px]" id="video">Video with Audio</h2>
                     <div className="aspect-w-16 aspect-h-9">
@@ -149,16 +169,17 @@ const IndexPage: React.FC<PageProps> = () => {
                                 allowFullScreen className="rounded-lg"></iframe>
                     </div>
 
-                    <div className="flex justify-center">
-                        <p className="text-center text-xl !mt-4 !mb-6 font-medium max-w-[100%] md:max-w-[75%]">
-                            We propose a method for continual, flexible, active, and safe robot personalization.
-                        </p>
+                    {/* Abstract */}
+                    <div className="!mt-8">
+                        <Abstract>
+                            Generalist robots must personalize in-the-wild to meet the diverse needs and preferences of long-term users. How can we enable flexible personalization without sacrificing safety or competency? This paper proposes Coloring Between the Lines (CBTL), a method for personalization that exploits the null space of constraint satisfaction problems (CSPs) used in robot planning. CBTL begins with a CSP generator that ensures safe and competent behavior, then incrementally personalizes behavior by learning parameterized constraints from online interaction. By quantifying uncertainty and leveraging the compositionality of planning constraints, CBTL achieves sample-efficient adaptation without environment resets. We evaluate CBTL in (1) three diverse simulation environments; (2) a web-based user study; and (3) a real-robot assisted feeding system, finding that CBTL consistently achieves more effective personalization with fewer interactions than baselines. Our results demonstrate that CBTL provides a unified and practical approach for continual, flexible, active, and safe robot personalization.
+                        </Abstract>
                     </div>
 
-                    {/* Abstract */}
-                    <Abstract>
-                    Generalist robots must personalize in-the-wild to meet the diverse needs and preferences of long-term users. How can we enable flexible personalization without sacrificing safety or competency? This paper proposes Coloring Between the Lines (CBTL), a method for personalization that exploits the null space of constraint satisfaction problems (CSPs) used in robot planning. CBTL begins with a CSP generator that ensures safe and competent behavior, then incrementally personalizes behavior by learning parameterized constraints from online interaction. By quantifying uncertainty and leveraging the compositionality of planning constraints, CBTL achieves sample-efficient adaptation without environment resets. We evaluate CBTL in (1) three diverse simulation environments; (2) a web-based user study; and (3) a real-robot assisted feeding system, finding that CBTL consistently achieves more effective personalization with fewer interactions than baselines. Our results demonstrate that CBTL provides a unified and practical approach for continual, flexible, active, and safe robot personalization.
-                    </Abstract>
+                    <h2 className="font-semibold border-b-[1px] !mt-8 !mb-4">Simulation Results</h2>
+                    <div className="!mb-6">
+                        <img src={simResultsImage} alt="Simulation Results" className="w-full rounded-lg"/>
+                    </div>
 
                     <h2 id="citation" className="border-b-[1px]">Citation</h2>
                     <div className="relative overflow-auto">
