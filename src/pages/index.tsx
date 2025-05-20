@@ -385,11 +385,11 @@ const IndexPage: React.FC<PageProps> = () => {
                     <div className="relative overflow-auto">
                         <pre className="bg-gradient-to-r from-pink-100 via-indigo-100 to-emerald-100 !my-0">
                             <code id="citation-bib" className="font-medium text-slate-800">{
-                                `@inproceedings{shen2023F3RM,
-    title={Distilled Feature Fields Enable Few-Shot Language-Guided Manipulation},
-    author={Shen, William and Yang, Ge and Yu, Alan and Wong, Jansen and Kaelbling, Leslie Pack and Isola, Phillip},
-    booktitle={7th Annual Conference on Robot Learning},
-    year={2023}
+                                `@article{silver2025coloring,
+    title={Coloring Between the Lines: Personalization in the Null Space of Planning Constraints},
+    author={Silver, Tom and Jenamani, Rajat Kumar and Liu, Ziang and Dodson, Ben and Bhattacharjee, Tapomayukh},
+    journal={Under Review},
+    year={2025}
 }`}
                             </code>
                         </pre>
@@ -427,12 +427,10 @@ const IndexPage: React.FC<PageProps> = () => {
                             <span>Back to Top</span>
                         </a>
                     </div>
-                    <div className="mt-2.5 text-center">
-                        Website source code on&nbsp;
-                        <a href="https://github.com/f3rm/f3rm.github.io" target="_blank" className="text-blue-500">
-                            <span
-                                className="align-text-top inline-flex justify-center mr-0.25"><AiFillGithub/>&nbsp;</span>
-                            <span>GitHub</span>
+                    <div className="mt-2.5 text-center text-sm text-gray-500">
+                        Website template based on the&nbsp;
+                        <a href="https://github.com/f3rm/f3rm.github.io" target="_blank" className="text-gray-600 hover:text-gray-800">
+                            F3RM Website Template
                         </a>
                     </div>
                 </footer>
