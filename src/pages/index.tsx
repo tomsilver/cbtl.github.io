@@ -148,7 +148,7 @@ const FewShotResult: React.FC = ({children, id, demos, demos_label, video, hidde
 }
 
 
-export const Head: HeadFC = () => <title>Distilled Feature Fields Enable Few-Shot Language-Guided Manipulation</title>
+export const Head: HeadFC = () => <title>Coloring Between the Lines: Personalization in the Null Space of Planning Constraints</title>
 
 const carouselResponsive = {
     desktop: {
@@ -186,40 +186,30 @@ const IndexPage: React.FC<PageProps> = () => {
                     <Title>
                         <span className="font-extrabold text-transparent bg-clip-text
                             bg-gradient-to-r from-pink-500 via-indigo-600 to-emerald-400">
-                            Distilled Feature Fields
+                            Coloring Between the Lines:
                         </span>
                         &nbsp;
-                        <span className="text-stone-800">Enable Few-Shot Language-Guided Manipulation</span>
+                        <span className="text-stone-800">Personalization in the Null Space of Planning Constraints</span>
                     </Title>
 
                     <Venue website={"https://www.corl2023.org/"}>
                         <span className="font-normal text-stone-600 hover:text-transparent hover:bg-clip-text
                         hover:bg-gradient-to-r hover:from-pink-500 hover:via-indigo-600 hover:to-emerald-400
-                        hover:transition-all">CoRL 2023 (Best Paper)</span>
+                        hover:transition-all">Under Review</span>
                     </Venue>
 
                     {/* Authors */}
                     <div className="flex flex-wrap justify-center text-xl lg:text-xl mb-4">
-                        <Author website={"https://shen.nz/"} firstAuthor={true} affiliations={"1"}>William Shen</Author>
-                        <Author website={"https://www.episodeyang.com/"} firstAuthor={true} affiliations={"1,2"}>Ge
-                            Yang</Author>
-                        <Author website={"https://www.linkedin.com/in/alan-yu1/"} affiliations={"1"}>Alan Yu</Author>
-                        <Author website={"https://www.linkedin.com/in/jansenwong/"} affiliations={"1"}>Jansen
-                            Wong</Author>
-                        <Author website={"https://people.csail.mit.edu/lpk/"} affiliations={"1"}>Leslie
-                            Kaelbling</Author>
-                        <Author website={"https://people.csail.mit.edu/phillipi/"} affiliations={"1"} lastAuthor={true}>Phillip
-                            Isola</Author>
+                        <Author website={"https://tomsilver.github.io/"} affiliations={"1"}>Tom Silver</Author>
+                        <Author website={"https://www.cs.cornell.edu/~rkjenamani/"} affiliations={"1"}>Rajat Kumar Jenamani</Author>
+                        <Author website={"https://www.ziangliu.com/"} affiliations={"1"}>Ziang Liu</Author>
+                        <Author website={"https://benzen-3.github.io/"} affiliations={"1"}>Ben Dodson</Author>
+                        <Author website={"https://sites.google.com/site/tapomayukh"} affiliations={"1"} lastAuthor={true}>Tapomayukh Bhattacharjee</Author>
                     </div>
 
                     {/* Affilations */}
                     <div className="flex flex-wrap justify-center text-xl lg:text-xl mb-1">
-                        <Affiliation website={"https://www.csail.mit.edu/"} number={"1"}>MIT CSAIL</Affiliation>
-                        <Affiliation website={"https://iaifi.org/"} number={"2"}>Institute of AI and Fundamental
-                            Interactions (IAIFI)</Affiliation>
-                    </div>
-                    <div className="flex flex-wrap justify-center text-l lg:text-l">
-                        <span className="text-stone-600 text-center"><sup className="mr-0.5">*</sup>Indicates equal contribution.</span>
+                        <Affiliation website={"https://www.cornell.edu/"} number={"1"}>Cornell University</Affiliation>
                     </div>
 
                     {/* Action Links */}

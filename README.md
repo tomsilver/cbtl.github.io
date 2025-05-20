@@ -1,8 +1,6 @@
 # F3RM Website
 
-Project website for the paper "Distilled Feature Fields Enable Few-Shot Language-Guided Manipulation".
-
-**Deployed at:** https://f3rm.csail.mit.edu/
+Project website for the paper "Coloring Between the Lines: Personalization in the Null Space of Planning Constraints".
 
 ## 🚀 Quick start
 
