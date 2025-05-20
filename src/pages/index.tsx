@@ -13,6 +13,8 @@ declare module "*.png" {
 
 import overviewImage from "../images/ctbl_overview.png"
 import simResultsImage from "../images/sim-results.png"
+import webStudyImage from "../images/web-study.png"
+import studySankeyDiagramImage from "../images/study_sankey_diagram.png"
 
 const Title: React.FC = ({children}) => {
     // Paper title
@@ -234,6 +236,24 @@ const IndexPage: React.FC<PageProps> = () => {
                     <h2 className="font-semibold border-b-[1px] !mt-8 !mb-4">Simulation Results</h2>
                     <div className="!mb-6">
                         <img src={simResultsImage} alt="Simulation Results" className="w-full rounded-lg"/>
+                    </div>
+                    <div className="flex justify-center">
+                        <p className="text-center text-xl !mt-2 !mb-4 font-medium max-w-[100%] md:max-w-[75%]">
+                            CBTL personalizes better and faster than baselines.
+                        </p>
+                    </div>
+
+                    <h2 className="font-semibold border-b-[1px] !mt-8 !mb-4">Web Study (60 participants)</h2>
+                    <div className="!mb-6">
+                        <img src={webStudyImage} alt="Web Study Results" className="w-full rounded-lg"/>
+                    </div>
+                    <div className="!mb-6">
+                        <img src={studySankeyDiagramImage} alt="Study Sankey Diagram" className="w-full rounded-lg"/>
+                    </div>
+                    <div className="flex justify-center">
+                        <p className="text-center text-xl !mt-2 !mb-4 font-medium max-w-[100%] md:max-w-[75%]">
+                            CBTL rapidly learns real human preferences.
+                        </p>
                     </div>
 
                     <h2 id="citation" className="border-b-[1px]">Citation</h2>
