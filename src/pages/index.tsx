@@ -176,10 +176,9 @@ const IndexPage: React.FC<PageProps> = () => {
                         </Abstract>
                     </div>
 
-                    <h2 className="font-semibold border-b-[1px] !mt-8 !mb-2">Simulation Environments</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 !mt-2 !mb-6">
+                    <h2 className="font-semibold border-b-[1px] !mt-4 !mb-1">Simulation Environments</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-2 !mt-1 !mb-3">
                         <div className="text-center">
-                            <h3 className="text-lg font-medium !mb-2">Cooking</h3>
                             <div className="aspect-w-16 aspect-h-9">
                             <video 
                                 autoPlay 
@@ -195,7 +194,6 @@ const IndexPage: React.FC<PageProps> = () => {
                             </div>
                         </div>
                         <div className="text-center">
-                            <h3 className="text-lg font-medium !mb-2">Cleaning</h3>
                             <div className="aspect-w-16 aspect-h-9">
                             <video 
                                 autoPlay 
@@ -211,7 +209,6 @@ const IndexPage: React.FC<PageProps> = () => {
                             </div>
                         </div>
                         <div className="text-center">
-                            <h3 className="text-lg font-medium !mb-2">Books</h3>
                             <div className="aspect-w-16 aspect-h-9">
                             <video 
                                 autoPlay 
