@@ -181,13 +181,13 @@ const IndexPage: React.FC<PageProps> = () => {
                         <div>
                             <h3 className="text-lg font-medium text-center !mb-2">Cooking</h3>
                             <div className="bg-gray-50 rounded-lg p-3 shadow-sm">
-                                <div className="h-full aspect-w-16 aspect-h-9 overflow-hidden">
+                                <div className="h-full aspect-w-16 aspect-h-9">
                                     <video 
                                         autoPlay 
                                         muted 
                                         playsInline 
                                         loop 
-                                        className="w-full h-full rounded-lg object-cover object-center"
+                                        className="w-full h-full object-cover rounded-lg"
                                         preload="auto"
                                     >
                                         <source src="/videos/cooking.mov" type="video/quicktime"/>
