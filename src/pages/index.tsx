@@ -180,7 +180,7 @@ const IndexPage: React.FC<PageProps> = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 !mt-1 !mb-2">
                         <div>
                             <h3 className="text-lg font-medium text-center !mb-2">Cooking</h3>
-                            <div className="bg-gray-50 rounded-lg p-3 shadow-sm">
+                            <div className="bg-gray-50 rounded-lg shadow-sm">
                                 <div className="h-full aspect-w-16 aspect-h-9">
                                     <video 
                                         autoPlay 
@@ -198,14 +198,14 @@ const IndexPage: React.FC<PageProps> = () => {
                         </div>
                         <div>
                             <h3 className="text-lg font-medium text-center !mb-2">Cleaning</h3>
-                            <div className="bg-gray-50 rounded-lg p-3 shadow-sm">
-                                <div className="h-full">
+                            <div className="bg-gray-50 rounded-lg shadow-sm">
+                                <div className="h-full aspect-w-16 aspect-h-9">
                                     <video 
                                         autoPlay 
                                         muted 
                                         playsInline 
                                         loop 
-                                        className="w-full rounded-lg"
+                                        className="w-full h-full object-cover rounded-lg"
                                         preload="auto"
                                     >
                                         <source src="/videos/cleaning.mp4" type="video/mp4"/>
@@ -216,14 +216,14 @@ const IndexPage: React.FC<PageProps> = () => {
                         </div>
                         <div>
                             <h3 className="text-lg font-medium text-center !mb-2">Books</h3>
-                            <div className="bg-gray-50 rounded-lg p-3 shadow-sm">
-                                <div className="h-full">
+                            <div className="bg-gray-50 rounded-lg shadow-sm">
+                                <div className="h-full aspect-w-16 aspect-h-9">
                                     <video 
                                         autoPlay 
                                         muted 
                                         playsInline 
                                         loop 
-                                        className="w-full rounded-lg"
+                                        className="w-full h-full object-cover rounded-lg"
                                         preload="auto"
                                     >
                                         <source src="/videos/books.mp4" type="video/mp4"/>
@@ -234,6 +234,7 @@ const IndexPage: React.FC<PageProps> = () => {
                         </div>
                     </div>
 
+                    <div className="h-8"></div>
                     <h2 className="font-semibold border-b-[1px] !mt-8 !mb-4">Simulation Results</h2>
                     <div className="!mb-6">
                         <img src={simResultsImage} alt="Simulation Results" className="w-full rounded-lg"/>
