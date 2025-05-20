@@ -185,7 +185,7 @@ const IndexPage: React.FC<PageProps> = () => {
                 <Article>
                     <Title>
                         <span className="font-extrabold text-transparent bg-clip-text
-                            bg-gradient-to-r from-pink-500 via-indigo-600 to-emerald-400">
+                            bg-gradient-to-r from-cyan-500 via-purple-500 to-rose-500">
                             Coloring Between the Lines:
                         </span>
                         &nbsp;
@@ -194,7 +194,7 @@ const IndexPage: React.FC<PageProps> = () => {
 
                     <Venue website={"https://www.corl2023.org/"}>
                         <span className="font-normal text-stone-600 hover:text-transparent hover:bg-clip-text
-                        hover:bg-gradient-to-r hover:from-pink-500 hover:via-indigo-600 hover:to-emerald-400
+                        hover:bg-gradient-to-r hover:from-cyan-500 hover:via-purple-500 hover:to-rose-500
                         hover:transition-all">Under Review</span>
                     </Venue>
 
@@ -234,7 +234,7 @@ const IndexPage: React.FC<PageProps> = () => {
                     </div>
                 </Article>
 
-                <div className="my-6 pt-6 pb-4 bg-gradient-to-r from-pink-100/70 via-indigo-100/70 to-emerald-100/70">
+                <div className="my-6 pt-6 pb-4 bg-gradient-to-r from-cyan-100/70 via-purple-100/70 to-rose-100/70">
                     <div
                         className="mx-auto w-full max-w-[97.5%] lg:max-w-7xl py-2 md:py-4 px-2 md:px-4">
                         <div className="relative pb-8 mb-3">
@@ -383,7 +383,7 @@ const IndexPage: React.FC<PageProps> = () => {
 
                     <h2 id="citation" className="border-b-[1px]">Citation</h2>
                     <div className="relative overflow-auto">
-                        <pre className="bg-gradient-to-r from-pink-100 via-indigo-100 to-emerald-100 !my-0">
+                        <pre className="bg-gradient-to-r from-cyan-100 via-purple-100 to-rose-100 !my-0">
                             <code id="citation-bib" className="font-medium text-slate-800">{
                                 `@article{silver2025coloring,
     title={Coloring Between the Lines: Personalization in the Null Space of Planning Constraints},
